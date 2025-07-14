@@ -1,12 +1,18 @@
-Projet Classification des Positions de Voiture avec MobileNetV2
-Ce projet vise à classifier la position d’une voiture dans une image parmi quatre catégories :
+pip install tensorflow        # Pour utiliser MobileNetV2 et entraîner le modèle deep learning
+pip install keras             # API haut niveau pour TensorFlow (souvent inclus dans TensorFlow 2.x)
+pip install numpy             # Manipulation des tableaux et données numériques
+pip install opencv-python     # Traitement d’image (lecture, transformation, etc.)
+pip install matplotlib        # Visualisation des images et graphiques
+pip install scikit-learn      # Évaluation, métriques, éventuellement prétraitement
+pip install pandas            # Gestion des données, CSV, annotations
+pip install jupyterlab        # Pour travailler avec les notebooks Jupyter (si besoin)
 
-Avant
-
-Arrière
-
-Gauche
-
-Droite
-
-Pour cela, on utilise le modèle MobileNetV2, un réseau de neurones efficace pour la reconnaissance d’images, afin de détecter automatiquement la position de la voiture à partir de photos.
+# requirement.txt pour automatise l'installation 
+tensorflow
+keras
+numpy
+opencv-python
+matplotlib
+scikit-learn
+pandas
+jupyterlab
