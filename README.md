@@ -1,1 +1,12 @@
-Ce projet utilise le modèle MobileNetV2, une architecture de réseau de neurones convolutionnel légère et efficace, pour classifier différentes positions de voitures à partir d’images. L’objectif est de développer un système capable de reconnaître automatiquement la position d’un véhicule (par exemple, stationné, en mouvement, en marche arrière, etc.) à partir de photos ou de vidéos.
+Projet Classification des Positions de Voiture avec MobileNetV2
+Ce projet vise à classifier la position d’une voiture dans une image parmi quatre catégories :
+
+Avant
+
+Arrière
+
+Gauche
+
+Droite
+
+Pour cela, on utilise le modèle MobileNetV2, un réseau de neurones efficace pour la reconnaissance d’images, afin de détecter automatiquement la position de la voiture à partir de photos.
