@@ -1,18 +1,32 @@
-pip install tensorflow        # Pour utiliser MobileNetV2 et entraîner le modèle deep learning
-pip install keras             # API haut niveau pour TensorFlow (souvent inclus dans TensorFlow 2.x)
-pip install numpy             # Manipulation des tableaux et données numériques
-pip install opencv-python     # Traitement d’image (lecture, transformation, etc.)
-pip install matplotlib        # Visualisation des images et graphiques
-pip install scikit-learn      # Évaluation, métriques, éventuellement prétraitement
-pip install pandas            # Gestion des données, CSV, annotations
-pip install jupyterlab        # Pour travailler avec les notebooks Jupyter (si besoin)
+telecharger visiual Studio code  et installe tout les dépendances 
+Télécharger Visual Studio Code - Mac, Linux, Windows
+télécharger les extensions dans visual Studio code dans l’onglet extension de l'application  jupyter ,  git  ,  debug run python 
+ Installe  python 
+Télécharger Python | Python.org
+telecharger le pip  pip install --upgrade pip
+comment a installé les dépendances 
+pip install numpy 
+pip install pandas 
+pip install tensorflow 
+pip install keras 
+pip install matplotlib 
+pip install searborn 
 
-# requirement.txt pour automatise l'installation 
-tensorflow
-keras
-numpy
-opencv-python
-matplotlib
-scikit-learn
-pandas
-jupyterlab
+
+pour automatiser il faut créer un fichier 
+requirements.txt  et mettre tout s’est dépense à l'intérieur l'intérieur du fichier
+place ce fichier dans le projet puis ouvre le chemins vers ce projet   et exécuter la commande juste d’en bas  
+numpy==1.26.4
+pandas==2.2.2
+scikit-learn==1.5.0
+matplotlib==3.9.0
+torch==2.2.2
+transformers==4.41.2
+jupyter
+
+pip install -r requirements.txt ( cette commande est exécuté soit dans l’invite de commande soit dans une terminale 
+
+ 
+ 
+
+
