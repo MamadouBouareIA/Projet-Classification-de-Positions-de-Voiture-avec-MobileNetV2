@@ -1,3 +1,4 @@
+
 telecharger visiual Studio code  et installe tout les dépendances 
 Télécharger Visual Studio Code - Mac, Linux, Windows
 télécharger les extensions dans visual Studio code dans l’onglet extension de l'application  jupyter ,  git  ,  debug run python 
@@ -25,6 +26,11 @@ transformers==4.41.2
 jupyter
 
 pip install -r requirements.txt ( cette commande est exécuté soit dans l’invite de commande soit dans une terminale 
+
+ 
+ 
+
+ 
 
  
  
